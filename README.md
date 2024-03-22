@@ -12,7 +12,7 @@ with title:
             font-family: arial;
             text-align: center;
             font-size: 40px;
-            font-weight: bold;
+            font-weight: bold;s
         '>{text}
         </div>
         """
@@ -66,4 +66,4 @@ with body:
             color=column_to_display+':Q'
         )
 
-    st.altair_chart(chart, use_container_width=True)
+    st.altair_chart(chart, use_container_width=True))
